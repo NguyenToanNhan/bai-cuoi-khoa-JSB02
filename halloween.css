@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    display: flex;
+    min-height: 100px;
+    flex-direction: row;
+    margin: 0;
+    
+}
+.Nav{
+    background-color: darkorange ;
+    width: 15%;
+    height: 100%;
+    
+}
+.def{
+    display: flex;
+    flex-direction: column;
+    flex:6
+}
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content > article {
+        flex: 3;
+        min-height: 500px;
+    }
+.content > aside {
+        background-color: darkorange
+        ;
+        flex: 1;
+
+    }
+    
+header, footer {
+    background-color:darkorange ;
+    height: 200px ;
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+.right-head{
+    display: flex;
+    justify-content: end;
+    
+}
+.register{
+margin-left: 30px;
+text-decoration: none;
+padding-top: 3%;
+}
+.login{
+    margin-left: 30px;
+    text-decoration: none;
+    margin-right: 50px;
+    padding-top: 3%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    
+    width: 450px;
+    height: 40px;
+    font-size: 20px;
+}
+.search2{
+    height: 45px;
+    padding-top: 9px;
+    
+}
+.search-bar{
+    margin-right: 100px;
+    padding-right: 50px;
+    padding-top: 30px;
+    
+}
+.navpic{
+    width: 170px;
+    height: 170px;
+}
+.promoted{
+    height: 125px;
+    width: 100px;
+    padding-right: 5px;
+}
+.promotion{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.best-seller{
+    height: 125px;
+    width: 110px;
+    padding-right: 5px;
+}
+.logoword{
+    padding-top: 13px;
+    padding-left: 20px;
+}
+.pagenumber{
+    display: flex;
+    justify-content: center;
+}
+.article-page{
+    padding: 10px;
+    text-decoration: none;
+}
+.finalword{
+    display: flex;
+    justify-content:  center;
+}
+article{
+    background-color: darkorange;
+    display: flex;
+    
+}
+.actualarticle{
+    
+    background-color: white;
+    position: relative;
+    padding-left: 80px;
+    padding-right: 30px;
+    margin-left: 30px;
+    width: 920px;
+    
+
+    
+}
+.mobs{
+    display: flex;
+    padding-bottom: 3%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.logoicon{
+    max-width: 50px;
+    max-height: 50px;
+}
+.welcome{
+    max-width: 700px;
+}
+.mobinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mobinformation{
+    
+    padding-left: 72px;
+    padding-right: 100px;
+    background-color: darkorange;
+    text-decoration: none;
+    
+
+}
+h3{
+    color: lightgray;
+}
+.custom-select{
+    padding-top: 3%;
+}
+.welcomewords{
+    padding-left: 180px;
+}
+.hellogify{
+    max-width: 800px;
+    max-height: 800px;
+    padding-left: 40px;
+}
